@@ -19,7 +19,7 @@ import android.view.View;
 import in.zerob13.circleloadingview.R;
 
 /**
- * This code is copyright (c) 2015
+ * This code is copyright (c) 2015 juhuiwan.cn
  * Created by zerob13 on 10/29/15.
  */
 public class CircleLoadingView extends View {
