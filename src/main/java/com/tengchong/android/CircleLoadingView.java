@@ -16,7 +16,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import in.zerob13.circleloadingview.R;
+import com.tengchong.android.circleloadingview.R;
 
 /**
  * This code is copyright (c) 2015 juhuiwan.cn
