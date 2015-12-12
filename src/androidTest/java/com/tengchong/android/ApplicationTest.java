@@ -1,4 +1,4 @@
-package in.zerob13.views;
+package com.tengchong.android;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
