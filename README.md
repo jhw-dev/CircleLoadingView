@@ -7,7 +7,7 @@ An image-view with circle loading animation
 
 ### Integration
 
-The lib is available on Maven Central, you can find it with [Gradle]()
+#### Android Studio
 
 ``` xml
 
