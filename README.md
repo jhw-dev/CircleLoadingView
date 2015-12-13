@@ -19,7 +19,7 @@ An image-view with circle loading animation
   }
 
   dependencies {
-      compile 'com.github.jhw-dev:CircleLoadingView:v1.2'
+      compile 'com.github.jhw-dev:CircleLoadingView:v1.3'
   }
 
 ```
