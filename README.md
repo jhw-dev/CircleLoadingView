@@ -10,8 +10,16 @@ An image-view with circle loading animation
 The lib is available on Maven Central, you can find it with [Gradle]()
 
 ``` xml
+
+  allprojects {
+      repositories {
+          jcenter()
+          maven { url "https://jitpack.io" }
+      }
+  }
+
   dependencies {
-     compile 'com.tengchong.android:circleloadingview:1.0'
+     compile 'com.tengchong.android:circleloadingview:v1.0'
   }
 
 ```
