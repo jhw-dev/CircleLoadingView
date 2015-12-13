@@ -19,7 +19,7 @@ The lib is available on Maven Central, you can find it with [Gradle]()
   }
 
   dependencies {
-     compile 'com.tengchong.android:circleloadingview:v1.0'
+      compile 'com.github.jhw-dev:CircleLoadingView:v1.0'
   }
 
 ```
