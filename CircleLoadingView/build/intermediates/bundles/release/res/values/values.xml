@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="CircleLoadingView"><attr format="dimension" name="cl_circleRadius"/><attr format="integer" name="cl_fillAnimationDuration"/><attr format="dimension" name="cl_circleStrokeSize"/><attr format="integer" name="cl_src"/></declare-styleable>
-    <string name="app_name">CircleLoadingView</string>
-</resources>

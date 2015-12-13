@@ -1,4 +1,4 @@
-/build
+*/build
 *.iml
 .gradle
 /local.properties
