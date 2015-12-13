@@ -1,5 +1,5 @@
 # CircleLoadingView
-----------------
+=====================
 
 An image-view with circle loading animation
 
