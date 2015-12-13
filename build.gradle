@@ -1,6 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 23
@@ -25,57 +23,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-}
-
-def siteUrl = 'https://github.com/jhw-dev/CircleLoadingView'      // 项目的主页
-def gitUrl = 'https://github.com/jhw-dev/CircleLoadingView.git'   // Git仓库的url
-group = "com.tengchong.android"                                        // Maven Group ID for the artifact，一般填你唯一的包名
-install {
-    repositories.mavenInstaller {
-        // This generates POM.xml with proper parameters
-        pom {
-            project {
-                packaging 'aar'
-                // Add your description here
-                name 'CircleLoadingView,An image-view with iOS style app loading animation'
-                //项目描述
-                url siteUrl
-                // Set your license
-                licenses {
-                    license {
-                        name 'The MIT License (MIT)'
-                        url 'https://github.com/jhw-dev/CircleLoadingView/raw/master/LICENSE'
-                    }
-                }
-                developers {
-                    developer {
-                        id 'juhuiwan'        //填写的一些基本信息
-                        name 'Juhuiwan.cn'
-                        email 'hulk@juhuiwan.cn'
-                    }
-                }
-                scm {
-                    connection gitUrl
-                    developerConnection gitUrl
-                    url siteUrl
-                }
-            }
-        }
-    }
-}
-
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-bintray {
-    user = properties.getProperty("bintray.user")
-    key = properties.getProperty("bintray.apikey")
-    configurations = ['archives']
-    pkg {
-        repo = "maven"
-        name = "CircleLoadingView"	//发布到JCenter上的项目名字
-        websiteUrl = siteUrl
-        vcsUrl = gitUrl
-        licenses = ["MIT"]
-        publish = true
-    }
 }
