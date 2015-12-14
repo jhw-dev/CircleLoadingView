@@ -25,6 +25,10 @@ An image-view with circle loading animation
 
 ```
 
+#### Eclipse
+
+> Really? You need a new job!
+
 ### Usage
 
 #### CircleLoadingView
