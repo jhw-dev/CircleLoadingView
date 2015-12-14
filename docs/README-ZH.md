@@ -1,18 +1,18 @@
 # CircleLoadingView
 ---   
 
-[简体中文版](https://github.com/jhw-dev/CircleLoadingView/blob/master/docs/README-ZH.md)
+[English Version](https://github.com/jhw-dev/CircleLoadingView/blob/master/README.md)
 
-An image-view with circle loading animation
+这是一个为了满足许多热衷于做安卓版爱疯的厂商的库。虽然她很简单，只是模拟了 iOS 下载 App 时候的动画，但是觉得可能会对许多苦逼的研发同胞们带来帮助。怀着情怀和对码农同胞们的爱，我们决定把她开源出来，如果能帮助到别人，也是好事一件。
+
 
 ![CircleLoadingView-screenshot](https://raw.githubusercontent.com/jhw-dev/CircleLoadingView/master/docs/screenshot.gif)
 
-### Integration
+### 配置方法
 
 #### Android Studio
 
 ``` xml
-
   allprojects {
       repositories {
           jcenter()
@@ -26,11 +26,13 @@ An image-view with circle loading animation
 
 ```
 
-### Usage
+#### Eclipse
 
-#### CircleLoadingView
+> 我觉得这个时候还在用 Eclipse 做 Android 开发的，要么是大神，要么就该换公司了，不如给我发个简历?
 
-Declare a CircleLoadingView inside your XML layout file
+### 使用方法
+
+#### XML 定义
 
 ``` xml
 
@@ -54,7 +56,7 @@ Declare a CircleLoadingView inside your XML layout file
 
 ```
 
-Or use CircleLoadingView from code dynamically && change percent of the circle.
+#### 用代码动态使用以及设定进度方式
 
 ``` java
 
@@ -65,14 +67,14 @@ Or use CircleLoadingView from code dynamically && change percent of the circle.
 
 ```
 
-### Customization
+### 自定义属性
 
-You can change several attributes in the XML file:
+#### 目前版本比较简单，仅支持在 XML 文件中自定义，另外，Drawable 只支持 BitmapDrawable，相信你懂的。
 
-* cl_circleRadius [dimension] --> the circle's radius
-* cl_circleStrokeSize [dimension] --> the circle's stroke size
-* cl_fillAnimationDuration [integer] --> duration of the animation when reached 100%
-* cl_src [dimension] --> Image drawable src.# Notice: CircleLoadingView only supports bitmapDrawable!
+* cl_circleRadius [dimension] --> 中间那个圆的半径
+* cl_circleStrokeSize [dimension] --> 圆的边框大小 
+* cl_fillAnimationDuration [integer] --> 最后扩散动画的时间 
+* cl_src [dimension] --> 背景的 BitmapDrawable 资源
 
 ### MIT License
 
