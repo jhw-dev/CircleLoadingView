@@ -1,5 +1,4 @@
 # CircleLoadingView
----   
 
 [English Version](https://github.com/jhw-dev/CircleLoadingView/blob/master/README.md)
 
