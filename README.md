@@ -4,6 +4,8 @@
 
 An image-view with circle loading animation
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CircleLoadingView-green.svg?style=true)](https://android-arsenal.com/details/1/2919)
+
 ![CircleLoadingView-screenshot](https://raw.githubusercontent.com/jhw-dev/CircleLoadingView/master/docs/screenshot.gif)
 
 ### Integration

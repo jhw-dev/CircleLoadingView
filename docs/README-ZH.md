@@ -4,6 +4,7 @@
 
 这是一个为了满足许多热衷于做安卓版爱疯的厂商的库。虽然她很简单，只是模拟了 iOS 下载 App 时候的动画，但是觉得可能会对许多苦逼的研发同胞们带来帮助。怀着情怀和对码农同胞们的爱，我们决定把她开源出来，如果能帮助到别人，也是好事一件。
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CircleLoadingView-green.svg?style=true)](https://android-arsenal.com/details/1/2919)
 
 ![CircleLoadingView-screenshot](https://raw.githubusercontent.com/jhw-dev/CircleLoadingView/master/docs/screenshot.gif)
 
@@ -71,8 +72,8 @@
 #### 目前版本比较简单，仅支持在 XML 文件中自定义，另外，Drawable 只支持 BitmapDrawable，相信你懂的。
 
 * cl_circleRadius [dimension] --> 中间那个圆的半径
-* cl_circleStrokeSize [dimension] --> 圆的边框大小 
-* cl_fillAnimationDuration [integer] --> 最后扩散动画的时间 
+* cl_circleStrokeSize [dimension] --> 圆的边框大小
+* cl_fillAnimationDuration [integer] --> 最后扩散动画的时间
 * cl_src [dimension] --> 背景的 BitmapDrawable 资源
 
 ### MIT License
